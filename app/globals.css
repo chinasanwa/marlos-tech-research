@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+}
+
+h1, h2, h3, h4 {
+  @apply font-display;
+}
+
+::selection {
+  background-color: #e53935;
+  color: #ffffff;
+}
+
+*:focus-visible {
+  outline: 2px solid #e53935;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.container-x {
+  @apply mx-auto w-full max-w-container px-6 md:px-10;
+}
+
+.eyebrow {
+  @apply font-mono text-xs tracking-[0.18em] uppercase text-accent font-medium;
+}
+
+/* research-thread connector: a signature vertical line with a node
+   marking progression between major sections, evoking a research
+   pathway. Hidden on small screens to keep mobile calm. */
+.thread-node {
+  position: relative;
+}
+
+.thread-node::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -1px;
+  width: 1px;
+  height: 64px;
+  background: linear-gradient(to bottom, transparent, #dfe3ea 40%, #dfe3ea 60%, transparent);
+  transform: translateX(-50%);
+}
+
+.thread-node::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: #e53935;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .thread-node::before,
+  .thread-node::after {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
