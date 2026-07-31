@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Button from "@/components/ui/Button";
 
@@ -91,7 +91,14 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden lg:block">
+        <div className="hidden items-center gap-3 lg:flex">
+          <Link
+            href="/search"
+            aria-label="Search"
+            className="flex h-9 w-9 items-center justify-center rounded-full text-white/75 transition-colors hover:bg-white/10 hover:text-white"
+          >
+            <Search className="h-4 w-4" />
+          </Link>
           <Button href="/apply" size="sm">
             Apply Now
           </Button>
@@ -168,7 +175,15 @@ export default function Navbar() {
               })}
             </nav>
 
-            <div className="shrink-0 border-t border-white/10 px-6 py-6">
+            <div className="shrink-0 space-y-3 border-t border-white/10 px-6 py-6">
+              <Link
+                href="/search"
+                onClick={() => setOpen(false)}
+                className="flex h-12 w-full items-center justify-center gap-2 rounded-full border border-white/20 text-sm font-medium text-white transition-colors hover:border-accent hover:text-accent"
+              >
+                <Search className="h-4 w-4" />
+                Search
+              </Link>
               <Button href="/apply" size="lg" className="w-full">
                 Apply Now
               </Button>

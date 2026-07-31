@@ -21,11 +21,12 @@ export default function ServicesGrid() {
           {servicesFull.map((service, i) => (
             <motion.div
               key={service.id}
+              id={service.id}
               initial={{ opacity: 0, y: 20, scale: 0.98 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.45, delay: (i % 3) * 0.07 }}
-              className="group overflow-hidden rounded-xl2 border border-paper-line bg-white shadow-card transition-shadow hover:shadow-cardHover"
+              className="group scroll-mt-28 overflow-hidden rounded-xl2 border border-paper-line bg-white shadow-card transition-shadow hover:shadow-cardHover"
             >
               <div className="relative aspect-[16/10] overflow-hidden">
                 <Image

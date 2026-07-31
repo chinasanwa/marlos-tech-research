@@ -1,7 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
-import { MapPin, Mail, Phone, Facebook, Twitter, Linkedin, Instagram, ArrowRight } from "lucide-react";
+import { MapPin, Mail, Phone, Facebook, Twitter, Linkedin, Instagram, ArrowRight, CheckCircle2 } from "lucide-react";
 
 const columns = [
   {
@@ -12,6 +13,9 @@ const columns = [
       { label: "Blog", href: "/blog" },
       { label: "Events", href: "/events" },
       { label: "Partnerships", href: "/partnerships" },
+      { label: "Careers", href: "/careers" },
+      { label: "Resources", href: "/resources" },
+      { label: "FAQ", href: "/faq" },
       { label: "Contact", href: "/contact" },
     ],
   },
@@ -43,6 +47,8 @@ const columns = [
 ];
 
 export default function Footer() {
+  const [subscribed, setSubscribed] = useState(false);
+
   return (
     <footer className="bg-navy-deep text-white">
       <div className="container-x py-16 md:py-20">
@@ -106,25 +112,38 @@ export default function Footer() {
               Program announcements and research notes, occasionally.
             </p>
           </div>
-          <form className="flex w-full max-w-sm items-center gap-2">
-            <label htmlFor="newsletter" className="sr-only">
-              Email address
-            </label>
-            <input
-              id="newsletter"
-              type="email"
-              required
-              placeholder="Your email address"
-              className="h-11 w-full rounded-full border border-white/15 bg-white/5 px-4 text-sm text-white placeholder:text-white/40 transition-colors focus:border-accent focus:outline-none"
-            />
-            <button
-              type="submit"
-              aria-label="Subscribe to newsletter"
-              className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-accent transition-colors hover:bg-accent-dark"
+          {subscribed ? (
+            <div className="flex h-11 w-full max-w-sm items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 text-sm text-white">
+              <CheckCircle2 className="h-4 w-4 shrink-0 text-accent" />
+              You&apos;re subscribed. Thank you!
+            </div>
+          ) : (
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+                setSubscribed(true);
+              }}
+              className="flex w-full max-w-sm items-center gap-2"
             >
-              <ArrowRight className="h-4 w-4 text-white" />
-            </button>
-          </form>
+              <label htmlFor="newsletter" className="sr-only">
+                Email address
+              </label>
+              <input
+                id="newsletter"
+                type="email"
+                required
+                placeholder="Your email address"
+                className="h-11 w-full rounded-full border border-white/15 bg-white/5 px-4 text-sm text-white placeholder:text-white/40 transition-colors focus:border-accent focus:outline-none"
+              />
+              <button
+                type="submit"
+                aria-label="Subscribe to newsletter"
+                className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-accent transition-colors hover:bg-accent-dark"
+              >
+                <ArrowRight className="h-4 w-4 text-white" />
+              </button>
+            </form>
+          )}
 
           <div className="flex items-center gap-3">
             {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
@@ -140,11 +159,21 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 flex flex-col gap-3 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-8 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-white/40">
             © {new Date().getFullYear()} Marlos Tech Research. All rights reserved.
           </p>
-          <p className="text-xs text-white/40">Aba, Abia State, Nigeria</p>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-white/40">
+            <Link href="/privacy" className="hover:text-white">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="hover:text-white">
+              Terms of Service
+            </Link>
+            <Link href="/cookies" className="hover:text-white">
+              Cookie Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

@@ -31,7 +31,7 @@ export default function ResearchPage() {
               Apply for Research
             </Button>
             <Button
-              href="/partnership"
+              href="/partnerships"
               variant="outline"
               size="lg"
               className="border-white/25 text-white hover:border-white"

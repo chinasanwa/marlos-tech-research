@@ -71,6 +71,13 @@ export interface BlogPost {
   date: string;
   readTime: string;
   image: string;
+  author?: string;
+  authorRole?: string;
+  authorImage?: string;
+  tags?: string[];
+  popular?: boolean;
+  featured?: boolean;
+  content?: { heading: string; body: string }[];
 }
 
 export interface Testimonial {
@@ -135,6 +142,16 @@ export interface ServiceDetail {
   image: string;
 }
 
+export interface Resource {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  category: "Research Paper" | "Case Study" | "White Paper" | "Technology Guide";
+  date: string;
+  image: string;
+}
+
 export interface PortfolioProject {
   id: string;
   client: string;
@@ -143,4 +160,40 @@ export interface PortfolioProject {
   technologies: string[];
   outcome: string;
   image: string;
+}
+
+export interface NewsArticle {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  category: string;
+  date: string;
+  image: string;
+  featured?: boolean;
+  content?: string[];
+}
+
+export interface EventItem {
+  id: string;
+  slug: string;
+  title: string;
+  category: string;
+  date: string;
+  time: string;
+  venue: string;
+  description: string;
+  image: string;
+}
+
+export interface JobOpening {
+  id: string;
+  slug: string;
+  title: string;
+  department: string;
+  location: string;
+  type: string;
+  description: string;
+  responsibilities: string[];
+  requirements: string[];
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { motion } from "framer-motion";
 import { MapPin, Navigation } from "lucide-react";
 import ContactForm from "@/components/contact/ContactForm";
@@ -23,7 +24,13 @@ export default function ContactFormSection() {
             transition={{ duration: 0.5 }}
             className="lg:col-span-3"
           >
-            <ContactForm />
+            <Suspense
+              fallback={
+                <div className="h-[420px] animate-pulse rounded-xl2 border border-paper-line bg-white" />
+              }
+            >
+              <ContactForm />
+            </Suspense>
           </motion.div>
 
           <motion.div
