@@ -8,8 +8,7 @@ export const programs: Program[] = [
     category: "Technical",
     description:
       "Core AI foundations, model reasoning, and applied project work for engineers building intelligent systems.",
-    duration: "13 Weeks",
-    classSchedule: "2 Hours Per Week",
+    duration: "18 Weeks",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
@@ -33,7 +32,6 @@ export const programs: Program[] = [
     description:
       "Practical machine learning workflows, from data preparation to model evaluation, taught through real datasets.",
     duration: "8 Weeks",
-    classSchedule: "2 Hours Per Week",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
@@ -57,7 +55,6 @@ export const programs: Program[] = [
     description:
       "Statistical thinking, data analysis, and visualization for teams that need to make decisions from data.",
     duration: "8 Weeks",
-    classSchedule: "2 Hours Per Week",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
@@ -81,7 +78,6 @@ export const programs: Program[] = [
     description:
       "Cloud infrastructure, deployment, and scaling fundamentals for engineers moving systems into production.",
     duration: "8 Weeks",
-    classSchedule: "2 Hours Per Week",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
@@ -104,8 +100,7 @@ export const programs: Program[] = [
     category: "Technical",
     description:
       "Threat modeling, network defense, and security operations for teams protecting critical infrastructure.",
-    duration: "13 Weeks",
-    classSchedule: "2 Hours Per Week",
+    duration: "12 Weeks",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
@@ -129,7 +124,6 @@ export const programs: Program[] = [
     description:
       "Frameworks for modernizing operations, systems, and culture inside growing African organizations.",
     duration: "4 Weeks",
-    classSchedule: "2 Hours Per Week",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
@@ -153,7 +147,6 @@ export const programs: Program[] = [
     description:
       "Structured problem-solving, strategy, and advisory skills for consultants working with growing businesses.",
     duration: "4 Weeks",
-    classSchedule: "2 Hours Per Week",
     registrationFee: 10000,
     certificationFee: 10000,
     image:

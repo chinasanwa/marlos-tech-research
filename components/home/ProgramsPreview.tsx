@@ -16,7 +16,7 @@ export default function ProgramsPreview() {
           <SectionHeading
             eyebrow="Short Professional Programs"
             title="Programs Built for Fast, Applied Skill"
-            description="Every program runs on a fixed 2-hours-per-week schedule across 4, 8, or 13 weeks, and includes a professional certification on completion."
+            description="Every program runs for 4, 8, 12, or 18 weeks depending on the track, and includes a professional certification on completion."
           />
           <Button href="/programs" variant="outline" className="shrink-0">
             View All Programs
@@ -49,7 +49,7 @@ export default function ProgramsPreview() {
               <div className="p-6">
                 <div className="flex items-center gap-2 text-xs font-medium text-accent">
                   <Clock className="h-3.5 w-3.5" />
-                  {program.duration} · {program.classSchedule}
+                  {program.duration}
                 </div>
                 <h3 className="mt-3 font-display text-lg font-semibold text-navy">
                   {program.title}

@@ -35,9 +35,9 @@ export default function ProgramFullCard({
       </div>
 
       <div className="flex flex-col p-7 md:col-span-3">
-        <div className="flex items-center gap-2 text-xs font-medium text-accent">
-          <Clock className="h-3.5 w-3.5" />
-          {program.duration} · {program.classSchedule}
+        <div className="flex items-center gap-2 text-sm font-semibold text-accent">
+          <Clock className="h-4 w-4" />
+          {program.duration}
         </div>
         <h3 className="mt-2.5 font-display text-xl font-semibold text-navy">
           {program.title}

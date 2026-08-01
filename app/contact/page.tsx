@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/ui/PageHero";
 import ContactInfo from "@/components/contact/ContactInfo";
+import OfficesSection from "@/components/shared/OfficesSection";
 import ContactFormSection from "@/components/contact/ContactFormSection";
 import ContactFAQ from "@/components/contact/ContactFAQ";
 
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Marlos Tech Research in Aba, Abia State. Visit us, call us, or send a message about our programs, research, or services.",
+    "Get in touch with Marlos Tech Research. Head Office: 49 Nwachukwu Street, Off 219 Port Harcourt Road, Aba, Abia State, Nigeria. Visit us, call us, or send a message.",
 };
 
 export default function ContactPage() {
@@ -22,6 +23,7 @@ export default function ContactPage() {
         breadcrumbLabel="Contact"
       />
       <ContactInfo />
+      <OfficesSection />
       <ContactFormSection />
       <ContactFAQ />
     </>

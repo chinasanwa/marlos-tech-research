@@ -7,8 +7,8 @@ const contactDetails = [
   {
     id: "location",
     icon: MapPin,
-    label: "Location",
-    value: "Aba, Abia State, Nigeria",
+    label: "Head Office",
+    value: "49 Nwachukwu Street, Off 219 Port Harcourt Road, Aba, Abia State, Nigeria",
     href: undefined,
   },
   {
@@ -49,7 +49,7 @@ export default function ContactInfo() {
                 <p className="mt-5 text-xs font-semibold uppercase tracking-wide text-ink-faint">
                   {item.label}
                 </p>
-                <p className="mt-1.5 font-display text-base font-semibold text-navy">
+                <p className="mt-1.5 text-sm font-semibold leading-relaxed text-navy">
                   {item.value}
                 </p>
               </>

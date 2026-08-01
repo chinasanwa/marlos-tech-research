@@ -116,7 +116,7 @@ export const programFAQs: FAQItem[] = [
     category: "Duration",
     question: "How long do programs run?",
     answer:
-      "Programs run for 4, 8, or 13 weeks depending on the track, with classes held for 2 hours per week throughout.",
+      "Programs run for 4, 8, 12, or 18 weeks depending on the track.",
   },
   {
     id: "certification",

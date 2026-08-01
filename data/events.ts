@@ -21,7 +21,7 @@ export const events: EventItem[] = [
     category: "Conference",
     date: "September 5, 2026",
     time: "10:00 AM – 5:00 PM",
-    venue: "Aba International Conference Centre",
+    venue: "Marlos Campus",
     description:
       "Our flagship annual summit bringing together researchers, founders, and industry partners across Nigeria.",
     image:

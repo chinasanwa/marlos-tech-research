@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { Loader2, Send } from "lucide-react";
+import { Loader2, Send, AlertCircle } from "lucide-react";
 
 const contactSchema = z.object({
   fullName: z.string().min(2, "Enter your full name"),
@@ -17,6 +17,8 @@ const contactSchema = z.object({
   organization: z.string().optional(),
   subject: z.string().min(2, "Let us know what this is about"),
   message: z.string().min(10, "Message should be at least 10 characters"),
+  // Honeypot — always empty for real visitors, hidden via CSS below.
+  company: z.string().max(0).optional().or(z.literal("")),
 });
 
 type ContactFormValues = z.infer<typeof contactSchema>;
@@ -34,6 +36,7 @@ export default function ContactForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [submitting, setSubmitting] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const {
     register,
@@ -45,15 +48,49 @@ export default function ContactForm() {
 
   const onSubmit = async (values: ContactFormValues) => {
     setSubmitting(true);
-    // Simulated submission — wire up to a real endpoint when available.
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    console.log("Contact form submitted:", values);
-    router.push(resolveSuccessPath(searchParams.get("type")));
+    setErrorMessage(null);
+
+    try {
+      const context = searchParams.get("type") ?? undefined;
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...values, context }),
+      });
+
+      const data = await response.json().catch(() => null);
+
+      if (!response.ok || !data?.success) {
+        throw new Error(data?.error || "Something went wrong. Please try again.");
+      }
+
+      router.push(resolveSuccessPath(searchParams.get("type")));
+    } catch (error) {
+      setErrorMessage(
+        error instanceof Error
+          ? error.message
+          : "We couldn't send your message right now. Please try again shortly."
+      );
+      setSubmitting(false);
+    }
   };
 
   return (
     <div className="rounded-xl2 border border-paper-line bg-white p-6 shadow-card md:p-8">
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-5" noValidate>
+        {/* Honeypot field: hidden from sighted users and off the tab order,
+            but visible to naive bots that fill in every input. */}
+        <div className="absolute left-[-9999px] top-auto h-0 w-0 overflow-hidden" aria-hidden="true">
+          <label htmlFor="company">Company</label>
+          <input
+            id="company"
+            type="text"
+            tabIndex={-1}
+            autoComplete="off"
+            {...register("company")}
+          />
+        </div>
+
         <div className="grid gap-5 sm:grid-cols-2">
           <div>
             <label htmlFor="fullName" className="text-sm font-medium text-navy">
@@ -145,6 +182,13 @@ export default function ContactForm() {
             <p className="mt-1.5 text-xs text-accent">{errors.message.message}</p>
           )}
         </div>
+
+        {errorMessage && (
+          <div className="flex items-start gap-2.5 rounded-lg bg-accent-soft px-4 py-3 text-sm text-accent">
+            <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" />
+            {errorMessage}
+          </div>
+        )}
 
         <button
           type="submit"

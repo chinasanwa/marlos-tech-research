@@ -11,8 +11,7 @@ export interface Program {
   title: string;
   category: string;
   description: string;
-  duration: "4 Weeks" | "8 Weeks" | "13 Weeks";
-  classSchedule: string;
+  duration: "4 Weeks" | "8 Weeks" | "12 Weeks" | "18 Weeks";
   registrationFee: number;
   certificationFee: number;
   image: string;
@@ -140,6 +139,13 @@ export interface ServiceDetail {
   description: string;
   benefits: string[];
   image: string;
+}
+
+export interface Office {
+  id: string;
+  city: string;
+  isHeadOffice: boolean;
+  addressLines?: string[];
 }
 
 export interface Resource {

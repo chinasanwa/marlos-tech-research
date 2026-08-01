@@ -9,7 +9,7 @@ export default function ProgramsGrid() {
         <SectionHeading
           eyebrow="Short Professional Programs"
           title="Choose Your Program"
-          description="Seven programs across technical and business tracks, each built around a fixed 2-hours-per-week schedule and a real certification at the end."
+          description="Seven programs across technical and business tracks, each with a fixed duration and a real certification at the end."
         />
 
         <div className="mt-14 grid gap-6">

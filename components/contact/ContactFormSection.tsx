@@ -54,13 +54,13 @@ export default function ContactFormSection() {
                 <MapPin className="h-7 w-7" strokeWidth={2} />
               </div>
               <h3 className="relative mt-5 font-display text-lg font-semibold text-white">
-                Marlos Tech Research
+                Marlos Tech Research — Head Office
               </h3>
-              <p className="relative mt-2 max-w-xs text-sm leading-relaxed text-white/60">
-                Aba, Abia State, Nigeria
+              <p className="relative mt-2 max-w-sm text-sm leading-relaxed text-white/60">
+                49 Nwachukwu Street, Off 219 Port Harcourt Road, Aba, Abia State, Nigeria
               </p>
               <a
-                href="https://www.google.com/maps/search/?api=1&query=Aba+Abia+State+Nigeria"
+                href="https://www.google.com/maps/search/?api=1&query=49+Nwachukwu+Street+Off+219+Port+Harcourt+Road+Aba+Abia+State+Nigeria"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative mt-6 inline-flex items-center gap-2 rounded-full border border-white/20 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:border-accent hover:text-accent"

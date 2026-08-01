@@ -66,7 +66,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          <span className="eyebrow text-white/50">Aba, Abia State · Nigeria</span>
+          <span className="eyebrow text-white/50">Technology Research Institute</span>
           <h1 className="mt-5 max-w-xl font-display text-4xl font-semibold leading-[1.08] text-white md:text-5xl lg:text-[3.4rem]">
             Building Africa&apos;s Future Through Research, Innovation &amp;
             Talent Development.

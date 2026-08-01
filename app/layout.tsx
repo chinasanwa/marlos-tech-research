@@ -3,6 +3,7 @@ import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { headOffice } from "@/data/offices";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -60,11 +61,32 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const [streetLine1, streetLine2] = headOffice.addressLines ?? [];
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Marlos Tech Research",
+    url: "https://marlostechresearch.com",
+    email: "info@marlostechresearch.com.ng",
+    telephone: "+2347044581634",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: [streetLine1, streetLine2].filter(Boolean).join(", "),
+      addressLocality: "Aba",
+      addressRegion: "Abia State",
+      addressCountry: "NG",
+    },
+  };
+
   return (
     <html lang="en">
       <body
         className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         <Navbar />
         <main>{children}</main>
         <Footer />

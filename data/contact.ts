@@ -6,7 +6,7 @@ export const contactFAQs: FAQItem[] = [
     category: "Location",
     question: "Where is Marlos Tech located?",
     answer:
-      "Our campus is in Aba, Abia State, Nigeria. Exact directions are shared with applicants and partners after initial contact.",
+      "Our Head Office is at 49 Nwachukwu Street, Off 219 Port Harcourt Road, Aba, Abia State, Nigeria. We also have offices in Port Harcourt, Bayelsa, Owerri, Anambra, and Enugu.",
   },
   {
     id: "enroll",
@@ -20,7 +20,7 @@ export const contactFAQs: FAQItem[] = [
     category: "Duration",
     question: "How long are programs?",
     answer:
-      "Programs run for 4, 8, or 13 weeks depending on the track, with classes held for 2 hours per week throughout.",
+      "Programs run for 4, 8, 12, or 18 weeks depending on the track.",
   },
   {
     id: "partnerships",

@@ -2,7 +2,17 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { MapPin, Mail, Phone, Facebook, Twitter, Linkedin, Instagram, ArrowRight, CheckCircle2 } from "lucide-react";
+import { MapPin, Mail, Phone, Facebook, Twitter, Linkedin, Instagram, Youtube, ArrowRight, CheckCircle2 } from "lucide-react";
+import { headOffice, regionalOffices } from "@/data/offices";
+import { getSocialLinks, SocialLink } from "@/lib/social-links";
+
+const SOCIAL_ICONS: Record<SocialLink["id"], React.ElementType> = {
+  facebook: Facebook,
+  linkedin: Linkedin,
+  twitter: Twitter,
+  instagram: Instagram,
+  youtube: Youtube,
+};
 
 const columns = [
   {
@@ -69,7 +79,25 @@ export default function Footer() {
             <ul className="mt-6 space-y-3 text-sm text-white/70">
               <li className="flex items-start gap-2.5">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
-                Aba, Abia State, Nigeria
+                <span>
+                  <span className="block font-medium text-white/90">Head Office</span>
+                  <address className="mt-0.5 not-italic leading-relaxed">
+                    {headOffice.addressLines?.map((line) => (
+                      <span key={line} className="block">
+                        {line}
+                      </span>
+                    ))}
+                  </address>
+                </span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
+                <span>
+                  <span className="block font-medium text-white/90">Regional Offices</span>
+                  <span className="mt-0.5 block leading-relaxed">
+                    {regionalOffices.map((office) => office.city).join(" · ")}
+                  </span>
+                </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="h-4 w-4 shrink-0 text-accent" />
@@ -146,16 +174,21 @@ export default function Footer() {
           )}
 
           <div className="flex items-center gap-3">
-            {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
-              <a
-                key={i}
-                href="#"
-                aria-label="Social media link"
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-white/70 transition-colors hover:border-accent hover:text-white"
-              >
-                <Icon className="h-4 w-4" />
-              </a>
-            ))}
+            {getSocialLinks().map((link) => {
+              const Icon = SOCIAL_ICONS[link.id];
+              return (
+                <a
+                  key={link.id}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={link.label}
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 text-white/70 transition-colors hover:border-accent hover:text-white"
+                >
+                  <Icon className="h-4 w-4" />
+                </a>
+              );
+            })}
           </div>
         </div>
 

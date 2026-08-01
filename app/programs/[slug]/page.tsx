@@ -69,7 +69,7 @@ export default async function ProgramDetailPage({
             </p>
             <div className="mt-6 flex items-center gap-2 text-sm text-white/70">
               <Clock className="h-4 w-4 text-accent" />
-              {program.duration} · {program.classSchedule}
+              {program.duration}
             </div>
             <div className="mt-8">
               <Button href={`/apply?program=${program.slug}`} size="lg">
@@ -89,8 +89,7 @@ export default async function ProgramDetailPage({
               </h2>
               <p className="mt-3 text-base leading-relaxed text-ink-muted">
                 {program.description} This program is delivered over{" "}
-                {program.duration.toLowerCase()} with classes held for{" "}
-                {program.classSchedule.toLowerCase()}, combining structured
+                {program.duration.toLowerCase()}, combining structured
                 instruction with hands-on, project-based learning.
               </p>
 
@@ -134,11 +133,9 @@ export default async function ProgramDetailPage({
                 <dl className="mt-4 space-y-3 text-sm">
                   <div className="flex justify-between">
                     <dt className="text-ink-muted">Duration</dt>
-                    <dd className="font-medium text-navy">{program.duration}</dd>
-                  </div>
-                  <div className="flex justify-between">
-                    <dt className="text-ink-muted">Schedule</dt>
-                    <dd className="font-medium text-navy">{program.classSchedule}</dd>
+                    <dd className="font-display text-base font-semibold text-navy">
+                      {program.duration}
+                    </dd>
                   </div>
                   <div className="flex justify-between">
                     <dt className="text-ink-muted">Registration Fee</dt>
