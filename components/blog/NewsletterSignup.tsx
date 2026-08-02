@@ -11,7 +11,7 @@ export default function NewsletterSignup() {
       <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-accent/15 text-accent">
         <Mail className="h-5 w-5" strokeWidth={2} />
       </div>
-      <h3 className="mt-4 font-display text-base font-semibold text-white">
+      <h3 className="mt-4 font-display text-lg font-semibold text-white">
         Stay in the loop
       </h3>
       <p className="mt-2 text-sm leading-relaxed text-white/60">

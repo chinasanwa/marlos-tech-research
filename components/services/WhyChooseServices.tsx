@@ -39,7 +39,7 @@ export default function WhyChooseServices() {
                 <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-accent-soft text-accent">
                   {Icon && <Icon className="h-5 w-5" strokeWidth={2} />}
                 </div>
-                <h3 className="mt-5 font-display text-base font-semibold text-navy">
+                <h3 className="mt-5 font-display text-lg font-semibold text-navy">
                   {item.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-muted">

@@ -36,6 +36,24 @@ const config: Config = {
         body: ["var(--font-inter)", "sans-serif"],
         mono: ["var(--font-jetbrains)", "monospace"],
       },
+      fontSize: {
+        // Module 9: readability pass. Every text-* utility used across
+        // Modules 1-8 is remapped here to a larger size, more generous
+        // line-height, and (where no explicit font-weight class is set on
+        // the element) a slightly heavier default weight. Because this is
+        // additive under `extend`, it overrides only these named sizes —
+        // anything not listed (7xl+) keeps Tailwind's normal scale.
+        xs: ["0.875rem", { lineHeight: "1.4", fontWeight: "500" }], // 14px — smallest tier (eyebrows, badges); was 12px
+        sm: ["1rem", { lineHeight: "1.75rem", fontWeight: "500" }], // 16px — most body copy across the site was text-sm at 14px
+        base: ["1.125rem", { lineHeight: "1.75rem", fontWeight: "500" }], // 18px
+        lg: ["1.375rem", { lineHeight: "1.85rem", fontWeight: "600" }], // 22px — card titles
+        xl: ["1.5rem", { lineHeight: "2rem", fontWeight: "600" }], // 24px — card titles
+        "2xl": ["1.75rem", { lineHeight: "2.25rem", fontWeight: "600" }], // 28px
+        "3xl": ["2rem", { lineHeight: "2.5rem", fontWeight: "600" }], // 32px
+        "4xl": ["2.375rem", { lineHeight: "1.15", fontWeight: "700" }], // 38px — section headings desktop
+        "5xl": ["3.125rem", { lineHeight: "1.1", fontWeight: "700" }], // 50px — hero desktop
+        "6xl": ["3.625rem", { lineHeight: "1.05", fontWeight: "700" }], // 58px
+      },
       maxWidth: {
         container: "1280px",
       },

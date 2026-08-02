@@ -21,7 +21,7 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
             >
               <span>
                 <span className="eyebrow">{faq.category}</span>
-                <span className="mt-1 block font-display text-base font-semibold text-navy">
+                <span className="mt-1 block font-display text-lg font-semibold text-navy">
                   {faq.question}
                 </span>
               </span>

@@ -44,14 +44,14 @@ export default function AboutPreview() {
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-2">
             <div>
-              <h3 className="font-display text-base font-semibold text-navy">Our Mission</h3>
+              <h3 className="font-display text-lg font-semibold text-navy">Our Mission</h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">
                 Train and place engineers, analysts, and consultants who can
                 perform from day one inside real organizations.
               </p>
             </div>
             <div>
-              <h3 className="font-display text-base font-semibold text-navy">Our Vision</h3>
+              <h3 className="font-display text-lg font-semibold text-navy">Our Vision</h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">
                 A Nigeria whose research output and technical talent compete
                 directly on the global stage.

@@ -50,7 +50,7 @@ export default function ResearchBenefits() {
                 <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-accent/10 text-accent">
                   {Icon && <Icon className="h-5 w-5" strokeWidth={2} />}
                 </div>
-                <h3 className="mt-5 font-display text-base font-semibold text-white">
+                <h3 className="mt-5 font-display text-lg font-semibold text-white">
                   {benefit.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-white/60">

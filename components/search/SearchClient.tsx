@@ -78,7 +78,7 @@ export default function SearchClient() {
               className="group rounded-xl2 border border-paper-line bg-white p-5 shadow-card transition-shadow hover:shadow-cardHover"
             >
               <span className="eyebrow">{result.type}</span>
-              <h3 className="mt-2 font-display text-base font-semibold text-navy transition-colors group-hover:text-accent">
+              <h3 className="mt-2 font-display text-lg font-semibold text-navy transition-colors group-hover:text-accent">
                 {result.title}
               </h3>
               <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-ink-muted">

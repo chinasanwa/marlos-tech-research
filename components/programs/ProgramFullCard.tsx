@@ -80,7 +80,7 @@ export default function ProgramFullCard({
           <span className="font-semibold text-navy">
             ₦{program.certificationFee.toLocaleString()}
           </span>
-          <p className="mt-1 text-[11px] text-ink-faint">
+          <p className="mt-1 text-xs text-ink-faint">
             Course fees are separate and shared during enrollment.
           </p>
         </div>

@@ -5,7 +5,7 @@ import { BlogPost } from "@/types";
 export default function PopularArticles({ posts }: { posts: BlogPost[] }) {
   return (
     <div className="rounded-xl2 border border-paper-line bg-white p-6 shadow-card">
-      <h3 className="font-display text-base font-semibold text-navy">Popular Articles</h3>
+      <h3 className="font-display text-lg font-semibold text-navy">Popular Articles</h3>
       <ul className="mt-5 space-y-5">
         {posts.map((post) => (
           <li key={post.id}>

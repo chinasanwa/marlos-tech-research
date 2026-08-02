@@ -38,7 +38,7 @@ export default function PartnershipProcess() {
                 <div className="mt-3 flex h-11 w-11 items-center justify-center rounded-lg bg-accent-soft text-accent">
                   {Icon && <Icon className="h-5 w-5" strokeWidth={2} />}
                 </div>
-                <h3 className="mt-4 font-display text-base font-semibold text-navy">
+                <h3 className="mt-4 font-display text-lg font-semibold text-navy">
                   {step.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-muted">

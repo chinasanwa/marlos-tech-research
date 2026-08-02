@@ -30,7 +30,7 @@ export default function ResearchPreview() {
               <span className="font-mono text-xs text-accent">
                 0{i + 1}
               </span>
-              <h3 className="mt-3 font-display text-base font-semibold text-white">
+              <h3 className="mt-3 font-display text-lg font-semibold text-white">
                 {area.title}
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-white/60">

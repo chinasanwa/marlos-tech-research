@@ -67,7 +67,7 @@ export default function ProgramsPreview() {
                       ₦{program.certificationFee.toLocaleString()}
                     </span>
                   </p>
-                  <p className="mt-2 text-[11px] text-ink-faint">
+                  <p className="mt-2 text-xs text-ink-faint">
                     Course fees are separate and shared during enrollment.
                   </p>
                 </div>

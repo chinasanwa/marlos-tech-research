@@ -41,7 +41,7 @@ export default function OfficesSection() {
                 )}
               </div>
               <h3
-                className={`mt-5 font-display text-base font-semibold ${
+                className={`mt-5 font-display text-lg font-semibold ${
                   office.isHeadOffice ? "text-white" : "text-navy"
                 }`}
               >
