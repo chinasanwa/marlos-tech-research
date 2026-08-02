@@ -15,7 +15,7 @@ export const blogArticles: BlogPost[] = [
     author: "Ngozi Eze",
     authorRole: "Lead AI Researcher",
     authorImage:
-      "https://images.unsplash.com/photo-1573497620013-7f7660da1a48?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573878414075-be35f08479e5?q=80&w=200&auto=format&fit=crop",
     tags: ["Artificial Intelligence", "Business", "Nigeria"],
     popular: true,
     featured: true,
@@ -84,7 +84,7 @@ export const blogArticles: BlogPost[] = [
     author: "Emeka Obi",
     authorRole: "Cloud Research Associate",
     authorImage:
-      "https://images.unsplash.com/photo-1573497620013-7f7660da1a48?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1679117349740-c46c819d0373?q=80&w=200&auto=format&fit=crop",
     tags: ["Cloud Computing", "Startups", "Cost Optimization"],
     featured: false,
     content: [
@@ -116,7 +116,7 @@ export const blogArticles: BlogPost[] = [
     author: "Chiamaka Nwosu",
     authorRole: "Machine Learning Engineer",
     authorImage:
-      "https://images.unsplash.com/photo-1573166953836-06864dc70a21?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573497620013-7f7660da1a48?q=80&w=200&auto=format&fit=crop",
     tags: ["Machine Learning", "MLOps", "Engineering"],
     popular: true,
     content: [

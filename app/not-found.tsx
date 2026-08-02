@@ -20,7 +20,7 @@ export default function NotFound() {
             Page Not Found
           </h1>
           <p className="mt-5 text-base leading-relaxed text-white/65">
-            The page you&#39;re looking for doesn&#39;t exist or may have moved. Try
+            The page you&apos;re looking for doesn&apos;t exist or may have moved. Try
             searching, or head back to the homepage.
           </p>
           <div className="mt-9 flex flex-wrap justify-center gap-4">

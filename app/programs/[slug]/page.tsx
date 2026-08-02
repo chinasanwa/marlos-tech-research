@@ -5,6 +5,7 @@ import { Briefcase, Sparkles, CheckCircle2 } from "lucide-react";
 import { programs } from "@/data/programs";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import Button from "@/components/ui/Button";
+import LevelBadge from "@/components/programs/LevelBadge";
 
 export async function generateStaticParams() {
   return programs.map((program) => ({ slug: program.slug }));
@@ -49,7 +50,7 @@ export default async function ProgramDetailPage({
         <div className="absolute inset-0">
           <Image
             src={program.image}
-            alt={program.title}
+            alt={`${program.title} program at Marlos Tech Research`}
             fill
             priority
             sizes="100vw"
@@ -64,6 +65,9 @@ export default async function ProgramDetailPage({
             <h1 className="mt-4 font-display text-4xl font-semibold leading-tight text-white md:text-5xl">
               {program.title}
             </h1>
+            <div className="mt-4">
+              <LevelBadge level={program.level} dark />
+            </div>
             <p className="mt-5 text-base leading-relaxed text-white/65 md:text-lg">
               {program.description}
             </p>
@@ -122,10 +126,16 @@ export default async function ProgramDetailPage({
 
             <div>
               <div className="rounded-xl2 border border-paper-line bg-paper-soft p-6">
-                <h3 className="font-display text-base font-semibold text-navy">
+                <h3 className="font-display text-lg font-semibold text-navy">
                   Program Details
                 </h3>
                 <dl className="mt-4 space-y-3 text-sm">
+                  <div className="flex items-center justify-between">
+                    <dt className="text-ink-muted">Level</dt>
+                    <dd>
+                      <LevelBadge level={program.level} />
+                    </dd>
+                  </div>
                   <div className="flex justify-between">
                     <dt className="text-ink-muted">Registration Fee</dt>
                     <dd className="font-medium text-navy">

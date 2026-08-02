@@ -17,7 +17,7 @@ export const testimonials: Testimonial[] = [
     quote:
       "Marlos Tech Research helped us plan our entire cloud migration. Their consulting team understood constraints most vendors ignore.",
     image:
-      "https://images.unsplash.com/photo-1573497620013-7f7660da1a48?q=80&w=400&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=400&auto=format&fit=crop",
   },
   {
     id: "3",

@@ -10,6 +10,7 @@ export interface Program {
   slug: string;
   title: string;
   category: string;
+  level: "Beginner" | "Intermediate" | "Advanced";
   description: string;
   registrationFee: number;
   certificationFee: number;

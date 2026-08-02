@@ -7,6 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 import { programs } from "@/data/programs";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
+import LevelBadge from "@/components/programs/LevelBadge";
 
 export default function ProgramsPreview() {
   return (
@@ -31,12 +32,12 @@ export default function ProgramsPreview() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.45, delay: (i % 3) * 0.08 }}
-              className="group overflow-hidden rounded-xl2 border border-paper-line bg-white shadow-card transition-shadow hover:shadow-cardHover"
+              className="group flex h-full flex-col overflow-hidden rounded-xl2 border border-paper-line bg-white shadow-card transition-shadow hover:shadow-cardHover"
             >
               <div className="relative aspect-[16/10] overflow-hidden">
                 <Image
                   src={program.image}
-                  alt={program.title}
+                  alt={`${program.title} program at Marlos Tech Research`}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -46,8 +47,9 @@ export default function ProgramsPreview() {
                 </span>
               </div>
 
-              <div className="p-6">
-                <h3 className="font-display text-lg font-semibold text-navy">
+              <div className="flex h-full flex-col p-6">
+                <LevelBadge level={program.level} className="w-fit" />
+                <h3 className="mt-3 font-display text-xl font-semibold text-navy">
                   {program.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-muted">
@@ -74,7 +76,7 @@ export default function ProgramsPreview() {
 
                 <Link
                   href={`/programs/${program.slug}`}
-                  className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-navy transition-colors hover:text-accent"
+                  className="mt-auto inline-flex w-fit items-center gap-1.5 pt-5 text-sm font-semibold text-navy transition-colors hover:text-accent"
                 >
                   Learn More
                   <ArrowUpRight className="h-4 w-4" />

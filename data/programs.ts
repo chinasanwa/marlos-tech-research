@@ -6,6 +6,7 @@ export const programs: Program[] = [
     slug: "artificial-intelligence",
     title: "Artificial Intelligence",
     category: "Technical",
+    level: "Advanced",
     description:
       "Core AI foundations, model reasoning, and applied project work for engineers building intelligent systems.",
     registrationFee: 10000,
@@ -28,6 +29,7 @@ export const programs: Program[] = [
     slug: "machine-learning",
     title: "Machine Learning",
     category: "Technical",
+    level: "Advanced",
     description:
       "Practical machine learning workflows, from data preparation to model evaluation, taught through real datasets.",
     registrationFee: 10000,
@@ -50,6 +52,7 @@ export const programs: Program[] = [
     slug: "data-science",
     title: "Data Science",
     category: "Technical",
+    level: "Intermediate",
     description:
       "Statistical thinking, data analysis, and visualization for teams that need to make decisions from data.",
     registrationFee: 10000,
@@ -72,6 +75,7 @@ export const programs: Program[] = [
     slug: "cloud-computing",
     title: "Cloud Computing",
     category: "Technical",
+    level: "Intermediate",
     description:
       "Cloud infrastructure, deployment, and scaling fundamentals for engineers moving systems into production.",
     registrationFee: 10000,
@@ -94,6 +98,7 @@ export const programs: Program[] = [
     slug: "cybersecurity",
     title: "Cybersecurity",
     category: "Technical",
+    level: "Advanced",
     description:
       "Threat modeling, network defense, and security operations for teams protecting critical infrastructure.",
     registrationFee: 10000,
@@ -116,6 +121,7 @@ export const programs: Program[] = [
     slug: "digital-transformation",
     title: "Digital Transformation",
     category: "Business",
+    level: "Beginner",
     description:
       "Frameworks for modernizing operations, systems, and culture inside growing African organizations.",
     registrationFee: 10000,
@@ -138,6 +144,7 @@ export const programs: Program[] = [
     slug: "business-consulting",
     title: "Business Consulting",
     category: "Business",
+    level: "Beginner",
     description:
       "Structured problem-solving, strategy, and advisory skills for consultants working with growing businesses.",
     registrationFee: 10000,
