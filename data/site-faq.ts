@@ -27,7 +27,7 @@ export const siteFAQs: FAQItem[] = [
     category: "Programs",
     question: "How long do programs run?",
     answer:
-      "Programs run for 4, 8, 12, or 18 weeks depending on the track.",
+      "Each program has a defined length tailored to its track; full details are shared during enrollment.",
   },
   {
     id: "fees",

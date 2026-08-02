@@ -16,7 +16,7 @@ export default function FAQPage() {
         eyebrow="Support"
         title="Frequently Asked Questions"
         description="Answers to the questions we hear most often about our programs, research, partnerships, and careers."
-        image="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1573496130141-209d200cebd8?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Team discussing questions around a table"
         breadcrumbLabel="FAQ"
       />

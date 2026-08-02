@@ -108,7 +108,7 @@ export default function Hero() {
         >
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-xl2 shadow-cardHover">
             <Image
-              src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1400&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1573167627769-e201a7ddf409?q=80&w=1400&auto=format&fit=crop"
               alt="African software engineers collaborating on a research project"
               fill
               priority

@@ -26,7 +26,7 @@ export default function NewsPage() {
         eyebrow="Newsroom"
         title="News from Marlos Tech Research"
         description="Updates on our research, partnerships, programs, and community initiatives."
-        image="https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1653669486397-b802144ae64a?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Newsroom-style workspace with monitors and notes"
         breadcrumbLabel="News"
       />

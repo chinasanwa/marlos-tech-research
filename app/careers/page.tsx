@@ -24,7 +24,7 @@ export default function CareersPage() {
         eyebrow="Careers"
         title="Build Africa's Technology Future With Us"
         description="Join a team of researchers, engineers, and educators working on real technology problems from Aba, Abia State."
-        image="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1573167627769-e201a7ddf409?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Team of technology professionals collaborating in an office"
         breadcrumbLabel="Careers"
       />

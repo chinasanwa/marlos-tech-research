@@ -12,7 +12,7 @@ export default function CookiePolicyPage() {
       eyebrow="Legal"
       title="Cookie Policy"
       lastUpdated="July 2026"
-      image="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1600&auto=format&fit=crop"
+      image="https://images.unsplash.com/photo-1573164574230-db1d5e960238?q=80&w=1600&auto=format&fit=crop"
       sections={[
         {
           heading: "What Are Cookies",

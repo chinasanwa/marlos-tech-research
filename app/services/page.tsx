@@ -20,7 +20,7 @@ export default function ServicesPage() {
         eyebrow="Our Services"
         title="Technology Solutions for Businesses, Institutions & Government"
         description="From strategy to delivery, our consulting and engineering teams help organizations modernize systems, adopt AI responsibly, and build lasting technical capacity."
-        image="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1573164574001-518958d9baa2?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Technology consultants working with a client team in Nigeria"
         breadcrumbLabel="Services"
       />

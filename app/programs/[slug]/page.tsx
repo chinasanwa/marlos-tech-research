@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { Clock, Briefcase, Sparkles, CheckCircle2 } from "lucide-react";
+import { Briefcase, Sparkles, CheckCircle2 } from "lucide-react";
 import { programs } from "@/data/programs";
 import Breadcrumb from "@/components/ui/Breadcrumb";
 import Button from "@/components/ui/Button";
@@ -67,10 +67,6 @@ export default async function ProgramDetailPage({
             <p className="mt-5 text-base leading-relaxed text-white/65 md:text-lg">
               {program.description}
             </p>
-            <div className="mt-6 flex items-center gap-2 text-sm text-white/70">
-              <Clock className="h-4 w-4 text-accent" />
-              {program.duration}
-            </div>
             <div className="mt-8">
               <Button href={`/apply?program=${program.slug}`} size="lg">
                 Apply for This Program
@@ -88,8 +84,7 @@ export default async function ProgramDetailPage({
                 Program Overview
               </h2>
               <p className="mt-3 text-base leading-relaxed text-ink-muted">
-                {program.description} This program is delivered over{" "}
-                {program.duration.toLowerCase()}, combining structured
+                {program.description} This program combines structured
                 instruction with hands-on, project-based learning.
               </p>
 
@@ -131,12 +126,6 @@ export default async function ProgramDetailPage({
                   Program Details
                 </h3>
                 <dl className="mt-4 space-y-3 text-sm">
-                  <div className="flex justify-between">
-                    <dt className="text-ink-muted">Duration</dt>
-                    <dd className="font-display text-base font-semibold text-navy">
-                      {program.duration}
-                    </dd>
-                  </div>
                   <div className="flex justify-between">
                     <dt className="text-ink-muted">Registration Fee</dt>
                     <dd className="font-medium text-navy">

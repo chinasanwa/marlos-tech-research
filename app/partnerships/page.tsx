@@ -18,7 +18,7 @@ export default function PartnershipsPage() {
         eyebrow="Partnerships"
         title="Become a Partner"
         description="We collaborate with universities, government, schools, NGOs, corporate organizations, investors, and technology companies to grow African technical capacity together."
-        image="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1573164574397-dd250bc8a598?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Diverse partners meeting at Marlos Tech Research"
         breadcrumbLabel="Partnerships"
       />

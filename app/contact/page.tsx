@@ -18,7 +18,7 @@ export default function ContactPage() {
         eyebrow="Get in Touch"
         title="Contact Marlos Tech Research"
         description="Visit us, call us, or send us a message."
-        image="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1604933762161-67313106146c?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Modern office reception at Marlos Tech Research"
         breadcrumbLabel="Contact"
       />

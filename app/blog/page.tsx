@@ -26,7 +26,7 @@ export default function BlogPage() {
         eyebrow="Insights"
         title="The Marlos Tech Research Blog"
         description="Articles from our researchers and instructors on AI, cybersecurity, cloud computing, data, careers, and digital transformation."
-        image="https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1604933762021-54a5858c9832?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Writer working at a desk with a laptop"
         breadcrumbLabel="Blog"
       />

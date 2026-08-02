@@ -11,7 +11,7 @@ export const researchProjects: ResearchProject[] = [
     description:
       "Studying applied AI models for diagnostic support and patient triage in resource-constrained clinics.",
     image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1653669486397-b802144ae64a?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "smart-agriculture",
@@ -23,7 +23,7 @@ export const researchProjects: ResearchProject[] = [
     description:
       "Deploying low-cost sensor networks to monitor soil and crop conditions for smallholder farms in Abia State.",
     image:
-      "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573166953836-06864dc70a21?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "cybersecurity-awareness",
@@ -35,7 +35,7 @@ export const researchProjects: ResearchProject[] = [
     description:
       "Building a training platform to raise security awareness among staff at partner financial institutions.",
     image:
-      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1642929456654-f4540e3e2a85?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "smart-city-monitoring",
@@ -47,7 +47,7 @@ export const researchProjects: ResearchProject[] = [
     description:
       "Piloting traffic and infrastructure monitoring sensors in partnership with municipal authorities.",
     image:
-      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1655720357872-ce227e4164ba?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "cloud-adoption-smes",
@@ -59,7 +59,7 @@ export const researchProjects: ResearchProject[] = [
     description:
       "Documented cloud migration patterns and cost outcomes across 20 small and mid-sized Nigerian businesses.",
     image:
-      "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573167627769-e201a7ddf409?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "ai-education-assistant",
@@ -71,6 +71,6 @@ export const researchProjects: ResearchProject[] = [
     description:
       "Developing an AI-assisted tutoring tool to support program instructors and self-paced learners.",
     image:
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521790361543-f645cf042ec4?q=80&w=1200&auto=format&fit=crop",
   },
 ];

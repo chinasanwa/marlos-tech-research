@@ -9,7 +9,7 @@ export const portfolioProjects: PortfolioProject[] = [
     technologies: ["AWS", "Kubernetes", "Terraform"],
     outcome: "Reduced infrastructure costs by 32% while improving uptime during peak season.",
     image:
-      "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "bank-fraud-detection",
@@ -19,7 +19,7 @@ export const portfolioProjects: PortfolioProject[] = [
     technologies: ["Python", "PyTorch", "PostgreSQL"],
     outcome: "Flagged fraudulent transactions 3x faster with a measurable drop in false positives.",
     image:
-      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1495603889488-42d1d66e5523?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "retail-analytics-dashboard",
@@ -29,7 +29,7 @@ export const portfolioProjects: PortfolioProject[] = [
     technologies: ["React", "D3.js", "BigQuery"],
     outcome: "Gave regional managers real-time visibility into sales, cutting reporting time by half.",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573497619951-6c9477fb83b4?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "agritech-platform",
@@ -39,6 +39,6 @@ export const portfolioProjects: PortfolioProject[] = [
     technologies: ["Next.js", "Node.js", "MongoDB"],
     outcome: "Connected over 400 smallholder farmers to buyers through a shared digital marketplace.",
     image:
-      "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573166953836-06864dc70a21?q=80&w=1200&auto=format&fit=crop",
   },
 ];

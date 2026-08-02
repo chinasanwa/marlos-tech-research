@@ -12,7 +12,7 @@ export const events: EventItem[] = [
     description:
       "An intensive one-day introduction to applied AI, covering model basics, evaluation, and a hands-on project.",
     image:
-      "https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574230-db1d5e960238?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "e2",
@@ -25,7 +25,7 @@ export const events: EventItem[] = [
     description:
       "Our flagship annual summit bringing together researchers, founders, and industry partners across Nigeria.",
     image:
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521790361543-f645cf042ec4?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "e3",
@@ -38,7 +38,7 @@ export const events: EventItem[] = [
     description:
       "A hands-on workshop covering threat detection fundamentals and incident response for IT teams.",
     image:
-      "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "e4",
@@ -51,7 +51,7 @@ export const events: EventItem[] = [
     description:
       "Teams compete to build working prototypes addressing real challenges submitted by our industry partners.",
     image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "e5",
@@ -64,6 +64,6 @@ export const events: EventItem[] = [
     description:
       "A seminar on applied statistical methods and visualization for decision-makers, open to the public.",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604933762161-67313106146c?q=80&w=1200&auto=format&fit=crop",
   },
 ];

@@ -11,11 +11,11 @@ export const blogArticles: BlogPost[] = [
     date: "July 14, 2026",
     readTime: "7 min read",
     image:
-      "https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574230-db1d5e960238?q=80&w=1200&auto=format&fit=crop",
     author: "Ngozi Eze",
     authorRole: "Lead AI Researcher",
     authorImage:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573497620013-7f7660da1a48?q=80&w=200&auto=format&fit=crop",
     tags: ["Artificial Intelligence", "Business", "Nigeria"],
     popular: true,
     featured: true,
@@ -48,11 +48,11 @@ export const blogArticles: BlogPost[] = [
     date: "July 2, 2026",
     readTime: "6 min read",
     image:
-      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1642929456654-f4540e3e2a85?q=80&w=1200&auto=format&fit=crop",
     author: "Ifeoma Chukwu",
     authorRole: "Cybersecurity Research Lead",
     authorImage:
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573166953836-06864dc70a21?q=80&w=200&auto=format&fit=crop",
     tags: ["Cybersecurity", "SMEs", "Risk Management"],
     popular: true,
     content: [
@@ -80,11 +80,11 @@ export const blogArticles: BlogPost[] = [
     date: "June 20, 2026",
     readTime: "8 min read",
     image:
-      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574397-dd250bc8a598?q=80&w=1200&auto=format&fit=crop",
     author: "Emeka Obi",
     authorRole: "Cloud Research Associate",
     authorImage:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573497620013-7f7660da1a48?q=80&w=200&auto=format&fit=crop",
     tags: ["Cloud Computing", "Startups", "Cost Optimization"],
     featured: false,
     content: [
@@ -112,11 +112,11 @@ export const blogArticles: BlogPost[] = [
     date: "June 8, 2026",
     readTime: "9 min read",
     image:
-      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573496130141-209d200cebd8?q=80&w=1200&auto=format&fit=crop",
     author: "Chiamaka Nwosu",
     authorRole: "Machine Learning Engineer",
     authorImage:
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573166953836-06864dc70a21?q=80&w=200&auto=format&fit=crop",
     tags: ["Machine Learning", "MLOps", "Engineering"],
     popular: true,
     content: [
@@ -144,11 +144,11 @@ export const blogArticles: BlogPost[] = [
     date: "May 26, 2026",
     readTime: "6 min read",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604933762161-67313106146c?q=80&w=1200&auto=format&fit=crop",
     author: "Grace Nnamdi",
     authorRole: "Data Science Instructor",
     authorImage:
-      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1642929456654-f4540e3e2a85?q=80&w=200&auto=format&fit=crop",
     tags: ["Data Science", "Analytics", "Strategy"],
     content: [
       {
@@ -175,11 +175,11 @@ export const blogArticles: BlogPost[] = [
     date: "May 12, 2026",
     readTime: "7 min read",
     image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1655720357872-ce227e4164ba?q=80&w=1200&auto=format&fit=crop",
     author: "Tunde Bakare",
     authorRole: "Career Development Lead",
     authorImage:
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1495603889488-42d1d66e5523?q=80&w=200&auto=format&fit=crop",
     tags: ["Careers", "Talent Development"],
     popular: true,
     content: [
@@ -207,11 +207,11 @@ export const blogArticles: BlogPost[] = [
     date: "April 30, 2026",
     readTime: "8 min read",
     image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=1200&auto=format&fit=crop",
     author: "Adaeze Umeh",
     authorRole: "Digital Transformation Consultant",
     authorImage:
-      "https://images.unsplash.com/photo-1590649880765-91b1956b8276?q=80&w=200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1603208701974-f95cf7e80b7e?q=80&w=200&auto=format&fit=crop",
     tags: ["Digital Transformation", "Strategy", "Operations"],
     content: [
       {

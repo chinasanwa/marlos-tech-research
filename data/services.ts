@@ -7,7 +7,7 @@ export const services: Service[] = [
     description:
       "Structured training pipelines that take early-career professionals to production-ready engineers and analysts.",
     image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1655720357872-ce227e4164ba?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "it-consulting",
@@ -15,7 +15,7 @@ export const services: Service[] = [
     description:
       "Technical advisory for organizations planning infrastructure, security, or systems modernization projects.",
     image:
-      "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573167627769-e201a7ddf409?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "digital-transformation-service",
@@ -23,7 +23,7 @@ export const services: Service[] = [
     description:
       "End-to-end support for organizations moving legacy processes onto modern, resilient digital systems.",
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573878414075-be35f08479e5?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "venture-building",
@@ -31,7 +31,7 @@ export const services: Service[] = [
     description:
       "Hands-on support for early-stage founders, from technical validation through to first product launch.",
     image:
-      "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573496800440-5c9c48a8d0f0?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "research-collaboration",
@@ -39,6 +39,6 @@ export const services: Service[] = [
     description:
       "Joint research partnerships with universities, government, and industry on applied technology problems.",
     image:
-      "https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1603208701974-f95cf7e80b7e?q=80&w=1200&auto=format&fit=crop",
   },
 ];

@@ -8,11 +8,10 @@ export const programs: Program[] = [
     category: "Technical",
     description:
       "Core AI foundations, model reasoning, and applied project work for engineers building intelligent systems.",
-    duration: "18 Weeks",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
-      "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573878414075-be35f08479e5?q=80&w=1200&auto=format&fit=crop",
     careerOutcomes: [
       "AI Engineer",
       "Applied Research Assistant",
@@ -31,11 +30,10 @@ export const programs: Program[] = [
     category: "Technical",
     description:
       "Practical machine learning workflows, from data preparation to model evaluation, taught through real datasets.",
-    duration: "8 Weeks",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
-      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573496130141-209d200cebd8?q=80&w=1200&auto=format&fit=crop",
     careerOutcomes: [
       "Machine Learning Engineer",
       "Data Analyst",
@@ -54,11 +52,10 @@ export const programs: Program[] = [
     category: "Technical",
     description:
       "Statistical thinking, data analysis, and visualization for teams that need to make decisions from data.",
-    duration: "8 Weeks",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604933762161-67313106146c?q=80&w=1200&auto=format&fit=crop",
     careerOutcomes: [
       "Data Analyst",
       "Business Intelligence Analyst",
@@ -77,11 +74,10 @@ export const programs: Program[] = [
     category: "Technical",
     description:
       "Cloud infrastructure, deployment, and scaling fundamentals for engineers moving systems into production.",
-    duration: "8 Weeks",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
-      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574397-dd250bc8a598?q=80&w=1200&auto=format&fit=crop",
     careerOutcomes: [
       "Cloud Engineer",
       "DevOps Associate",
@@ -100,11 +96,10 @@ export const programs: Program[] = [
     category: "Technical",
     description:
       "Threat modeling, network defense, and security operations for teams protecting critical infrastructure.",
-    duration: "12 Weeks",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
-      "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop",
     careerOutcomes: [
       "Cybersecurity Analyst",
       "Security Operations Associate",
@@ -123,11 +118,10 @@ export const programs: Program[] = [
     category: "Business",
     description:
       "Frameworks for modernizing operations, systems, and culture inside growing African organizations.",
-    duration: "4 Weeks",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=1200&auto=format&fit=crop",
     careerOutcomes: [
       "Digital Transformation Associate",
       "Operations Analyst",
@@ -146,11 +140,10 @@ export const programs: Program[] = [
     category: "Business",
     description:
       "Structured problem-solving, strategy, and advisory skills for consultants working with growing businesses.",
-    duration: "4 Weeks",
     registrationFee: 10000,
     certificationFee: 10000,
     image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574511-73c773193279?q=80&w=1200&auto=format&fit=crop",
     careerOutcomes: [
       "Business Consultant",
       "Strategy Associate",

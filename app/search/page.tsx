@@ -16,7 +16,7 @@ export default function SearchPage() {
         eyebrow="Search"
         title="Search Marlos Tech Research"
         description="Find programs, articles, news, events, research areas, and services."
-        image="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1573167627769-e201a7ddf409?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Person searching on a laptop"
         breadcrumbLabel="Search"
       />

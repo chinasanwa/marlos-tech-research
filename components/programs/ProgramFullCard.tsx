@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Clock, Briefcase, Sparkles } from "lucide-react";
+import { Briefcase, Sparkles } from "lucide-react";
 import { Program } from "@/types";
 import Button from "@/components/ui/Button";
 
@@ -35,11 +35,7 @@ export default function ProgramFullCard({
       </div>
 
       <div className="flex flex-col p-7 md:col-span-3">
-        <div className="flex items-center gap-2 text-sm font-semibold text-accent">
-          <Clock className="h-4 w-4" />
-          {program.duration}
-        </div>
-        <h3 className="mt-2.5 font-display text-xl font-semibold text-navy">
+        <h3 className="font-display text-xl font-semibold text-navy">
           {program.title}
         </h3>
         <p className="mt-2 text-sm leading-relaxed text-ink-muted">

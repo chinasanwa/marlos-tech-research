@@ -20,7 +20,7 @@ export default function AboutPage() {
         eyebrow="About Marlos Tech Research"
         title="Building Africa's Future Through Technology"
         description="We train engineers, run applied technology research, and partner with organizations solving Africa's most pressing technical challenges."
-        image="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1573167627769-e201a7ddf409?q=80&w=1600&auto=format&fit=crop"
         imageAlt="African technology professionals collaborating in a research setting"
         breadcrumbLabel="About"
       />

@@ -10,7 +10,7 @@ export const resources: Resource[] = [
     category: "Research Paper",
     date: "July 2026",
     image:
-      "https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574230-db1d5e960238?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "r2",
@@ -21,7 +21,7 @@ export const resources: Resource[] = [
     category: "Research Paper",
     date: "May 2026",
     image:
-      "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573166953836-06864dc70a21?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "r3",
@@ -32,7 +32,7 @@ export const resources: Resource[] = [
     category: "Case Study",
     date: "June 2026",
     image:
-      "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "r4",
@@ -43,7 +43,7 @@ export const resources: Resource[] = [
     category: "Case Study",
     date: "April 2026",
     image:
-      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1495603889488-42d1d66e5523?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "r5",
@@ -54,7 +54,7 @@ export const resources: Resource[] = [
     category: "White Paper",
     date: "March 2026",
     image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "r6",
@@ -65,7 +65,7 @@ export const resources: Resource[] = [
     category: "White Paper",
     date: "February 2026",
     image:
-      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1642929456654-f4540e3e2a85?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "r7",
@@ -76,7 +76,7 @@ export const resources: Resource[] = [
     category: "Technology Guide",
     date: "June 2026",
     image:
-      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574397-dd250bc8a598?q=80&w=1200&auto=format&fit=crop",
   },
   {
     id: "r8",
@@ -87,6 +87,6 @@ export const resources: Resource[] = [
     category: "Technology Guide",
     date: "May 2026",
     image:
-      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573496130141-209d200cebd8?q=80&w=1200&auto=format&fit=crop",
   },
 ];

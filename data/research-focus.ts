@@ -13,7 +13,7 @@ export const researchFocusAreas: ResearchFocusArea[] = [
       "Train researchers in responsible AI practice",
     ],
     image:
-      "https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574230-db1d5e960238?q=80&w=1200&auto=format&fit=crop",
     icon: "BrainCircuit",
   },
   {
@@ -28,7 +28,7 @@ export const researchFocusAreas: ResearchFocusArea[] = [
       "Advise partners on model monitoring",
     ],
     image:
-      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573496130141-209d200cebd8?q=80&w=1200&auto=format&fit=crop",
     icon: "Network",
   },
   {
@@ -43,7 +43,7 @@ export const researchFocusAreas: ResearchFocusArea[] = [
       "Partner with organizations on data strategy",
     ],
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604933762161-67313106146c?q=80&w=1200&auto=format&fit=crop",
     icon: "ChartSpline",
   },
   {
@@ -58,7 +58,7 @@ export const researchFocusAreas: ResearchFocusArea[] = [
       "Publish cost-optimization guidance for SMEs",
     ],
     image:
-      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574397-dd250bc8a598?q=80&w=1200&auto=format&fit=crop",
     icon: "Cloud",
   },
   {
@@ -73,7 +73,7 @@ export const researchFocusAreas: ResearchFocusArea[] = [
       "Develop incident response playbooks",
     ],
     image:
-      "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop",
     icon: "ShieldCheck",
   },
   {
@@ -88,7 +88,7 @@ export const researchFocusAreas: ResearchFocusArea[] = [
       "Partner with municipal and agricultural bodies",
     ],
     image:
-      "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?q=80&w=1200&auto=format&fit=crop",
     icon: "Cpu",
   },
   {
@@ -103,7 +103,7 @@ export const researchFocusAreas: ResearchFocusArea[] = [
       "Advise partners on rollout sequencing",
     ],
     image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?q=80&w=1200&auto=format&fit=crop",
     icon: "RefreshCcw",
   },
   {
@@ -118,7 +118,7 @@ export const researchFocusAreas: ResearchFocusArea[] = [
       "Publish forecasting benchmarks",
     ],
     image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573878414075-be35f08479e5?q=80&w=1200&auto=format&fit=crop",
     icon: "LineChart",
   },
 ];

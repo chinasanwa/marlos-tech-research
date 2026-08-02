@@ -10,7 +10,7 @@ export const newsArticles: NewsArticle[] = [
     category: "Research",
     date: "July 18, 2026",
     image:
-      "https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574230-db1d5e960238?q=80&w=1200&auto=format&fit=crop",
     featured: true,
     content: [
       "Researchers at our Applied AI lab have published new findings on evaluating language models for low-resource African language data, addressing a gap that has limited reliable AI deployment across the region.",
@@ -27,7 +27,7 @@ export const newsArticles: NewsArticle[] = [
     category: "Partnerships",
     date: "July 5, 2026",
     image:
-      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574511-73c773193279?q=80&w=1200&auto=format&fit=crop",
     content: [
       "Marlos Tech Research has entered a new partnership with a regional financial services provider to expand joint cybersecurity research initiatives.",
       "The collaboration will give our Cybersecurity Lab researchers access to anonymized threat data, strengthening the practical relevance of our published research and training materials.",
@@ -43,7 +43,7 @@ export const newsArticles: NewsArticle[] = [
     category: "Community",
     date: "June 22, 2026",
     image:
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521790361543-f645cf042ec4?q=80&w=1200&auto=format&fit=crop",
     content: [
       "Our latest cohort of graduates presented capstone projects at a community showcase attended by partner organizations and prospective employers.",
       "Projects ranged from an AI-assisted diagnostic tool to a smart agriculture sensor prototype, each grounded in the applied, project-based approach our programs are built around.",
@@ -59,7 +59,7 @@ export const newsArticles: NewsArticle[] = [
     category: "Community",
     date: "June 10, 2026",
     image:
-      "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573167627769-e201a7ddf409?q=80&w=1200&auto=format&fit=crop",
     content: [
       "Over 80 secondary school students from across Aba attended a free one-day workshop introducing programming fundamentals and basic problem-solving with code.",
       "The workshop is part of our ongoing commitment to early technology exposure, run in partnership with local schools.",
@@ -75,7 +75,7 @@ export const newsArticles: NewsArticle[] = [
     category: "Research",
     date: "May 29, 2026",
     image:
-      "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573166953836-06864dc70a21?q=80&w=1200&auto=format&fit=crop",
     content: [
       "Our research centre has been awarded an innovation grant to expand the Smart Agriculture research project currently piloting sensor networks across smallholder farms in Abia State.",
       "The additional funding will support a larger sensor deployment and a longer data collection period, strengthening the reliability of our findings.",
@@ -91,7 +91,7 @@ export const newsArticles: NewsArticle[] = [
     category: "Programs",
     date: "May 15, 2026",
     image:
-      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573164574397-dd250bc8a598?q=80&w=1200&auto=format&fit=crop",
     content: [
       "Applications are now open for a new intensive Cloud Computing bootcamp track, running alongside our standard 8-week program this quarter.",
       "The bootcamp compresses core cloud infrastructure and deployment training into a faster schedule for applicants who need to move quickly.",

@@ -22,7 +22,7 @@ export default function EventsPage() {
         eyebrow="Events"
         title="Upcoming Events at Marlos Tech Research"
         description="Bootcamps, summits, and workshops bringing together students, researchers, and industry partners."
-        image="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1679117349740-c46c819d0373?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Audience attending a technology conference"
         breadcrumbLabel="Events"
       />

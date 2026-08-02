@@ -17,7 +17,7 @@ export default function ResourcesPage() {
         eyebrow="Resources"
         title="Research Papers, Case Studies & Guides"
         description="Applied research and practical guidance from our research centre and consulting practice."
-        image="https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1573164574511-73c773193279?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Stack of research documents and a laptop"
         breadcrumbLabel="Resources"
       />

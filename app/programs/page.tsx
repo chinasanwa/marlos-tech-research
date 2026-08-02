@@ -20,7 +20,7 @@ export default function ProgramsPage() {
         eyebrow="Programs & Professional Training"
         title="Short Programs. Real Skills. Real Certification."
         description="Seven applied technology and business programs, each built on a fixed weekly schedule and taught by practitioners who work in the field."
-        image="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1604933762021-54a5858c9832?q=80&w=1600&auto=format&fit=crop"
         imageAlt="African technology students in a training session"
         breadcrumbLabel="Programs"
       />

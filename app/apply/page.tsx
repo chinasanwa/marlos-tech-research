@@ -16,7 +16,7 @@ export default function ApplyPage() {
         eyebrow="Apply Now"
         title="Start Your Application"
         description="Tell us a bit about yourself and what you'd like to join. Our team will follow up with next steps."
-        image="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1521790361543-f645cf042ec4?q=80&w=1600&auto=format&fit=crop"
         imageAlt="Student filling out an application on a laptop"
         breadcrumbLabel="Apply"
       />

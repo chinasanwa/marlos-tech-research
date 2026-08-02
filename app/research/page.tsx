@@ -22,7 +22,7 @@ export default function ResearchPage() {
         eyebrow="Research Centre"
         title="Research That Solves Africa's Real Technology Challenges"
         description="Our researchers work across eight technology domains, partnering with universities, government, and industry to turn applied research into practical solutions."
-        image="https://images.unsplash.com/photo-1507668077129-56e32842fceb?q=80&w=1600&auto=format&fit=crop"
+        image="https://images.unsplash.com/photo-1573496800440-5c9c48a8d0f0?q=80&w=1600&auto=format&fit=crop"
         imageAlt="African researchers working with modern technology in a lab setting"
         breadcrumbLabel="Research"
         actions={
